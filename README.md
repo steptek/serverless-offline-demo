@@ -21,8 +21,19 @@ Test your service locally, without having to deploy it first.
 ```bash
 sh start.sh
 ```
-
 ## Usage
+
+## 1
+
+You can use the publihsed API function to get data from kinesis stream:
+### Search by term
+
+```bash
+curl  -H "Content-Type:application/json" http://0.0.0.0:3000/ads/housing 
+```
+
+
+## 2
 
 You can create, retrieve, update, or delete todos with the following commands:
 
