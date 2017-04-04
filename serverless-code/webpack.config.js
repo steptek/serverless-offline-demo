@@ -9,7 +9,8 @@ module.exports = {
       './todos/list':     './todos/list.ts',
       './todos/update':   './todos/update.ts',
       './stream/stream':  './stream/stream.ts',
-      './stream/consumer':'./stream/consumer.ts'
+      './stream/consumer':'./stream/consumer.ts',
+       './ads/ads':        './ads/ads.ts'
   },
   target: 'node',
   module: {

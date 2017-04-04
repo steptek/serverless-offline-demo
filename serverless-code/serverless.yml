@@ -96,6 +96,15 @@ functions:
               - ResourcesKinesisStream
               - Arn
           batchSize: 1
+ 
+  ads:
+    handler: ads/ads.ads
+    events:
+      - http:
+          path: ads/{id}
+          method: get
+          cors: true
+
 
 resources:
   Resources:
